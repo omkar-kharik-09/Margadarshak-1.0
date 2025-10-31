@@ -101,7 +101,7 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
-                  href="/college-predictor" 
+                  href="/predict" 
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1a1a1a] text-white rounded-lg hover:bg-[#333333] transition-colors font-medium text-lg"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -253,7 +253,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link 
-                    href="/college-predictor" 
+                    href="/predict" 
                     className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#2563eb] rounded-lg hover:bg-gray-50 transition-colors font-semibold text-lg shadow-lg"
                   >
                     Start College Prediction
